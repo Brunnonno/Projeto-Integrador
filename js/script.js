@@ -62,7 +62,7 @@ function CommentClass () {
     replyBtn.innerText = 'Responder';
 
     var inputElement = document.createElement('input');
-    inputElement.placeholder = 'Add comment';
+    inputElement.placeholder = 'Clique para comentar...';
     inputElement.className = 'comment-box reply-comment hide';
     inputElement.setAttribute('autocomplete', 'off');
 
